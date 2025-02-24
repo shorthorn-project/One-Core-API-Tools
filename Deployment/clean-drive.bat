@@ -32,6 +32,10 @@ del "%letter%:\Windows\OEWABLog.txt" >nul 2>nul
 del "%letter%:\Windows\setuplog.txt" >nul 2>nul
 del "%letter%:\Windows\SchedLgU.txt" >nul 2>nul
 del "%letter%:\Windows\ntbtlog.txt" >nul 2>nul
+del "%letter%:\Windows\System32\drivers\vmmouse.sys" >nul 2>nul
+del "%letter%:\Windows\System32\drivers\vmusbmouse.sys" >nul 2>nul
+del "%letter%:\Windows\System32\drivers\vmx_svga.sys" >nul 2>nul
+del "%letter%:\Windows\System32\drivers\vmxnet.sys" >nul 2>nul
 del "%letter%:\Windows\Prefetch\Layout.ini" >nul 2>nul
 
 rmdir /s /q ""%letter%:\Windows\Panther" >nul 2>nul

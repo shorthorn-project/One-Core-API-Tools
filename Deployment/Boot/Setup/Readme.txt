@@ -1,1 +1,0 @@
-This folder will be used to mount Windows PE Setup image.

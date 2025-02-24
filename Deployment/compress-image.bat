@@ -10,7 +10,7 @@ if not exist "%~dp0Output\WIM\install.wim" (
 
 cls
 
-if not exist "%~dp0Output\WIM\install.wim" (
+if exist "%~dp0Output\WIM\install.wim" (
 	ECHO                           PHASE: Compressing Windows image	
 	"tools\WimLib\%ARCH%\wimlib-imagex.exe" optimize "%~dp0Output\WIM\install.wim" --compress=LZX:100
 )
